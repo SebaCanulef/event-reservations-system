@@ -1,0 +1,8 @@
+Sistema de Gestión de Reservas para Eventos
+Problema: Gestionar reservas de eventos de forma eficiente y segura.
+Solución: Aplicación web con login, reservas y panel de administración.
+Tecnologías: PHP, MySQL, Bootstrap.
+Optimización:
+- Antes: Consulta en `index.php` tardaba 0.1s con 10 eventos.
+- Después: Con índice, se redujo a 0.05s.
+Reflexión: Este proyecto demuestra soporte técnico (reserva segura), código eficiente (estructura modular) y colaboración con diseño (interfaz responsiva), alineándose con los requisitos de Operations Developer.

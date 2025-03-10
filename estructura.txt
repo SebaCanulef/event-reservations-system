@@ -1,0 +1,14 @@
+event-reservations/
+├── css/
+│   └── styles.css
+├── js/
+│   └── scripts.js
+├── includes/
+│   ├── db.php (conexión a la base de datos)
+│   └── header.php
+├── index.php (página principal)
+├── login.php (inicio de sesión)
+├── reserve.php (formulario de reservas)
+├── admin.php (panel de administración)
+└── README.md
+
