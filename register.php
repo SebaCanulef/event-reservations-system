@@ -21,9 +21,28 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <title>Registrarse</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            max-width: 450px;
+            margin-top: 5rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            color: #343a40;
+        }
+    </style>
 </head>
 <body>
-    <div class="container mt-5">
+    <div class="container">
         <h1>Registrarse</h1>
         <?php if (isset($success)): ?>
             <div class="alert alert-success"><?php echo $success; ?></div>
@@ -39,8 +58,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <label for="password" class="form-label">Contraseña</label>
                 <input type="password" class="form-control" id="password" name="password" required>
             </div>
-            <button type="submit" class="btn btn-primary">Registrarse</button>
-            <a href="login.php" class="btn btn-secondary">Volver</a>
+            <button type="submit" class="btn btn-primary w-100 mb-2">Registrarse</button>
+            <a href="index.php" class="btn btn-secondary w-100">Volver</a>
         </form>
     </div>
 </body>
